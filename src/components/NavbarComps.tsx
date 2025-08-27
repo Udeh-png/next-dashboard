@@ -41,7 +41,7 @@ export const LoginButton = () => {
           <div className="flex flex-col gap-1 bg-[rgba(240,240,240,1)] rounded-tl-2xl rounded-b-2xl p-2 text-[13px] w-36">
             {userSession ? (
               <button
-                className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-gray-200 transition-colors text-red-500"
+                className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-slate-300 transition-colors text-red-500"
                 onClick={() => {
                   signOut();
                 }}
@@ -50,7 +50,7 @@ export const LoginButton = () => {
               </button>
             ) : (
               <button
-                className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-gray-200 transition-colors"
+                className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-slate-300 transition-colors"
                 onClick={() => {
                   signIn();
                 }}
