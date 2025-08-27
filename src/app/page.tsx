@@ -11,7 +11,6 @@ export default function Home() {
           className="px-7 py-1 rounded bg-trans-white flex flex-col items-center hover:bg-[rgba(255,255,255,0.6)] transition-colors"
         >
           Dashboard
-          <span className="text-[7px]">Thats what you're here for init</span>
         </Link>
       </div>
     </div>
