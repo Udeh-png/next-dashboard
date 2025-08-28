@@ -3,8 +3,6 @@ import { LoginButton } from "./NavbarComps";
 import { SessionProvider } from "next-auth/react";
 
 export default async function Navbar() {
-  const session = await auth();
-  const userSession = session?.user;
   return (
     <form className="flex justify-between pt-2 h-full max-w-[1300px] mx-auto">
       <p
@@ -16,16 +14,8 @@ export default async function Navbar() {
           color: "transparent",
         }}
       >
-        Welcome,{" "}
-        {userSession
-          ? userSession?.name?.slice(0, userSession.name.indexOf(" "))
-          : "Guest"}
+        Welcome To The Dashboard
       </p>
-      <div className="relative">
-        <SessionProvider session={session}>
-          <LoginButton />
-        </SessionProvider>
-      </div>
     </form>
   );
 }
