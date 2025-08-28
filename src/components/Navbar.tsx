@@ -22,7 +22,7 @@ export default async function Navbar() {
           : "Guest"}
       </p>
       <div className="relative">
-        <SessionProvider>
+        <SessionProvider session={session}>
           <LoginButton />
         </SessionProvider>
       </div>
