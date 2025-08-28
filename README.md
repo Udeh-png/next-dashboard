@@ -15,16 +15,16 @@ A Desktop focused dashboard page built with **Next.js** and **Tailwind CSS**. In
 - Next.js V15
 - Tailwind CSS V3
 - Typescript
-- Auth.js
 
-## 🔗 Live Demo [None At The Moment 😁]
+## 🔗 Live Demo 
+[Click Me](https://mydevdash.vercel.app)
 
 ## 📂 Installation
 
 1. Clone the repo
 
 ```bash
-     git clone https://github.com/Udeh-png/Dashboard-With-NextJs
+     git clone https://github.com/Udeh-png/next-dashboard.git
 ```
 
 2. Install Dependencies
