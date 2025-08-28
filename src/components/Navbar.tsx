@@ -1,6 +1,6 @@
 export default async function Navbar() {
   return (
-    <form className="flex justify-between pt-2 h-full max-w-[1300px] mx-auto">
+    <form className="flex justify-between pt-2 h-full max-w-[1400px] mx-auto">
       <p
         className="font-bold bg-clip-text text-[clamp(15px,5vw,36px)]"
         style={{

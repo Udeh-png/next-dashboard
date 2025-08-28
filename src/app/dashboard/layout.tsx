@@ -22,7 +22,7 @@ export default function DashboardLayout({
       <header className="mb-2">
         <Navbar />
       </header>
-      <main className="max-w-[1300px] mx-auto">
+      <main className="max-w-[1400px] mx-auto">
         <div className="grid grid-cols-[1fr_2fr_1fr] gap-1 max-[950px]:hidden">
           <div className="grid grid-rows-[1fr_1fr] gap-1">
             {profile}
