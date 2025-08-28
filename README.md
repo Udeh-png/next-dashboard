@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard Page UI
 
-## Getting Started
+A Desktop focused dashboard page built with **Next.js** and **Tailwind CSS**. Includes a worktime timer, mini taskmanager, and a clean modern design
 
-First, run the development server:
+## 🚀 Features
+
+- Desktop focused
+- Clean and minimal Tailwind-based design
+- Persisted timer state
+- Authentication with Auth.js Oauth
+- Easy to customize and extend
+
+## 🛠️ Tech Stack
+
+- Next.js V15
+- Tailwind CSS V3
+- Typescript
+- Auth.js
+
+## 🔗 Live Demo [None At The Moment 😁]
+
+## 📂 Installation
+
+1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+     git clone https://github.com/Udeh-png/Dashboard-With-NextJs
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the project
 
-## Learn More
+```bash
+  npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Build the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run build
+  npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Screenshot(s)
 
-## Deploy on Vercel
+![Dashboard Screenshot](/screenshots/dashboard-screenshot.jpeg)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✍️ Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Udeh Chisom](https://github.com/Udeh-png)
