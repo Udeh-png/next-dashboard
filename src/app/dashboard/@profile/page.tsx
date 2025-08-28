@@ -4,9 +4,12 @@ import Image from "next/image";
 export default async function ProfilePage() {
   return (
     <Card className="overflow-hidden !p-0 flex flex-col-reverse relative">
-      <div className="w-full h-full relative">
-        <Image fill src="/display-pic.jpeg" alt="Profile Picture" />
-      </div>
+      <Image
+        fill
+        src="/display-pic.jpeg"
+        alt="Profile Picture"
+        className="object-cover"
+      />
       <div
         className="flex items-end justify-between absolute top-0 left-0 w-full z-10 text-white p-5 backdrop-blur-[3px] h-full bg-[rgba(255,255,255,0.3)]"
         style={{
