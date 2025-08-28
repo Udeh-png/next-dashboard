@@ -42,8 +42,8 @@ export const LoginButton = () => {
             {userSession ? (
               <button
                 className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-slate-300 transition-colors text-red-500"
-                onClick={() => {
-                  signOut();
+                onClick={async () => {
+                  await signOut();
                 }}
               >
                 Sign out
@@ -51,8 +51,8 @@ export const LoginButton = () => {
             ) : (
               <button
                 className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-slate-300 transition-colors"
-                onClick={() => {
-                  signIn();
+                onClick={async () => {
+                  await signIn();
                 }}
               >
                 Sign in
