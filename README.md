@@ -15,7 +15,6 @@ A Desktop focused dashboard page built with **Next.js** and **Tailwind CSS**. In
 - Next.js V15
 - Tailwind CSS V3
 - Typescript
-- Auth.js
 
 ## 🔗 Live Demo 
 [Click Me](https://mydevdash.vercel.app)
