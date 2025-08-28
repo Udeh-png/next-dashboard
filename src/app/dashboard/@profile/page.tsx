@@ -29,17 +29,17 @@ export default async function ProfilePage() {
       )}
 
       <div className="h-full w-full flex justify-center items-center">
-        {userSession ? (
-          <Image
-            fill
-            src={userSession?.image ? userSession?.image : "/"}
-            alt="Profile Picture"
-          />
-        ) : (
-          <div className="h-[95%] w-[95%]">
+        <div className="h-[95%] w-[95%] relative">
+          {userSession ? (
+            <Image
+              fill
+              src={userSession?.image ? userSession?.image : "/"}
+              alt="Profile Picture"
+            />
+          ) : (
             <FaRegCircleUser className="h-full w-full" />
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </Card>
   );
