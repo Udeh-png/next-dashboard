@@ -18,8 +18,8 @@ export default function DashboardLayout({
   calender: React.ReactNode;
 }>) {
   return (
-    <div className="">
-      <header className="mb-4">
+    <div className="px-2">
+      <header className="mb-2">
         <Navbar />
       </header>
       <main className="max-w-[1300px] mx-auto">
