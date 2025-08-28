@@ -24,7 +24,7 @@ A Desktop focused dashboard page built with **Next.js** and **Tailwind CSS**. In
 1. Clone the repo
 
 ```bash
-     git clone https://github.com/Udeh-png/Dashboard-With-NextJs
+     git clone https://github.com/Udeh-png/next-dashboard.git
 ```
 
 2. Install Dependencies
