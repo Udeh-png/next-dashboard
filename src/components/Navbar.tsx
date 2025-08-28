@@ -1,12 +1,8 @@
-import { auth } from "../../auth";
-import { LoginButton } from "./NavbarComps";
-import { SessionProvider } from "next-auth/react";
-
 export default async function Navbar() {
   return (
     <form className="flex justify-between pt-2 h-full max-w-[1300px] mx-auto">
       <p
-        className="text-4xl font-bold bg-clip-text"
+        className="font-bold bg-clip-text text-[clamp(15px,5vw,36px)]"
         style={{
           background:
             "linear-gradient(to right, orange 30%, rgba(170, 169, 173, 0.5))",

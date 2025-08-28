@@ -48,7 +48,7 @@ A Desktop focused dashboard page built with **Next.js** and **Tailwind CSS**. In
 
 ## Screenshot(s)
 
-![Dashboard Screenshot](/screenshots/dashboard-screenshot.jpeg)
+![Dashboard Screenshot](/screenshots/dashboard-screenshot.jpg)
 
 ## ✍️ Author
 

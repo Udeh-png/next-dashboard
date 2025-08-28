@@ -23,7 +23,7 @@ export default function DashboardLayout({
         <Navbar />
       </header>
       <main className="max-w-[1300px] mx-auto">
-        <div className="grid grid-cols-[1fr_2fr_1fr] gap-1">
+        <div className="grid grid-cols-[1fr_2fr_1fr] gap-1 max-[950px]:hidden">
           <div className="grid grid-rows-[1fr_1fr] gap-1">
             {profile}
             {perks}
@@ -40,7 +40,7 @@ export default function DashboardLayout({
           <div className="grid">{onBoarding}</div>
         </div>
 
-        <div>{children}</div>
+        <div className="min-[950px]:hidden">{children}</div>
       </main>
     </div>
   );
