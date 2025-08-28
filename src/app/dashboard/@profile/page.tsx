@@ -22,7 +22,7 @@ export default async function ProfilePage() {
         </div>
       </div>
 
-      <Image fill src="/display-pic.jpeg" alt="Profile Picture" />
+      {/* <Image fill src="/display-pic.jpeg" alt="Profile Picture" /> */}
     </Card>
   );
 }
