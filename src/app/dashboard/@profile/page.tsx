@@ -4,7 +4,7 @@ import Image from "next/image";
 export default async function ProfilePage() {
   return (
     <Card className="overflow-hidden !p-0 flex flex-col-reverse relative">
-      <div
+      {/* <div
         className="flex items-end justify-between relative z-10 text-white p-5 backdrop-blur-[3px] h-full bg-[rgba(255,255,255,0.3)]"
         style={{
           maskImage:
@@ -20,7 +20,7 @@ export default async function ProfilePage() {
             $1,200
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* <Image fill src="/display-pic.jpeg" alt="Profile Picture" /> */}
     </Card>
