@@ -43,7 +43,7 @@ export const LoginButton = () => {
               <button
                 className="py-2 font-semibold px-1 cursor-pointer rounded-lg hover:bg-slate-300 transition-colors text-red-500"
                 onClick={async () => {
-                  await signOut();
+                  await signOut({ redirectTo: "/" });
                 }}
               >
                 Sign out
